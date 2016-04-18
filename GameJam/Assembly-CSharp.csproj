@@ -46,20 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\jetControl.cs" />
-     <Compile Include="Assets\Assets\shipController.cs" />
-     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\Library\ScriptAssemblies\CompilationCompleted.txt" />
- <Reference Include="Assembly-CSharp">
- <HintPath>C:/Users/p4023798/Documents/GameJam/Assets/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\Scripts\gunControl.cs" />
+     <Compile Include="Assets\Scripts\jetControl.cs" />
+     <Compile Include="Assets\Scripts\shipController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{355F895C-C780-0CDE-8669-4D847A4C872C}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
